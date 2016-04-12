@@ -29,7 +29,7 @@ $ hanglish
 
 ## Contact
 
-If you have any questions, welcome to send an email to <a class="email" href="mailto:xiaoh@about.me">x    iaoh@about.me</a>
+If you have any questions, welcome to send an email to <a class="email" href="mailto:xiaoh@about.me">xiaoh@about.me</a>
 
 ---
 

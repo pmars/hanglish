@@ -9,7 +9,7 @@ def readme():
 setup(
     name = 'hanglish',
     version = hanglish.__version__,
-    keywords = ("hanglish", "hangman", "xingming", "xiaoh", "english", "learning"),
+    keywords = ("hanglish", "hangman", "game", "xingming", "xiaoh", "english", "learning"),
     description = ("It is a simple tool for finding text you want to search from the folder you want."),
     long_description = readme(),
 

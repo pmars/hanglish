@@ -154,9 +154,9 @@ class Hanglish():
             if self._secret_word[i] not in self._correct_letters:
                 return False
 
-        xprint('Yes! The secret word is "{0}"! '
-               'Meaning: {1}'
-               'You have won!'.format(self.words[self._secret_word], self._secret_word))
+        xprint('Yes! The secret word is "{0}"! \n'
+               'Meaning: {1}\n'
+               'You have won!'.format(self._secret_word, self.words[self._secret_word]))
 
         return True
 
@@ -208,15 +208,14 @@ class Hanglish():
                 self._missed_letters = self._missed_letters + guess
                 self._game_is_done = self._check_lost()
 
-
     def play_again(self):
         '''
             Returns True if the player wants to play again, False otherwise.
         '''
 
-        xprint('Do you want to play again? (yes or no)')
+        xprint('Do you want to play again? (yes or no)(default yes)')
         w = raw_input().lower()
-        return w == 'yes' or w == 'y'
+        return w != "no" 
 
 def main():
     '''
